@@ -98,7 +98,7 @@ body{
 
 .building2 .window6{
     animation-name: singleLight;
-    animation-duration: 6s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 
@@ -109,11 +109,19 @@ body{
     100% {background-color: #0802A3;}
 }
 
-.calcada{
-    background-color: black;
+.street{
+    background-image: linear-gradient(to bottom, #191919, #1A120B);
     position: absolute;
     margin-top: 0;
     width: 100%;
     height: 22%;
     bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.street img{
+    width: 16%;
+    height: auto;
 }
